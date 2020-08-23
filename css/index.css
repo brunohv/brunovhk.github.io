@@ -297,6 +297,9 @@ Fim do hover do avatar
 .social-icon{
  color: white;
 }
+.social-icon:hover{
+    color: black;
+}
 .title:hover{
     border-left: 10px solid #ff4c4c;
     border-right: 10px solid #ff4c4c;
@@ -340,9 +343,18 @@ BADGES INICIO
 .badge-custom-linux:hover{
     color: black;
 }
+.badges{
+    margin-bottom: 15px;
+}
 /*
 BADGES FIM
 */
-.badges{
-    margin-bottom: 15px;
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
