@@ -364,6 +364,6 @@ BADGES FIM
 .fa-home:hover{
     color: #9b1308;
 }
-.span:hover:after{
-    transition: linear 0s;
+.tooltip-inner {
+font-weight: bold;
 }
