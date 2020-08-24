@@ -350,11 +350,20 @@ BADGES INICIO
 BADGES FIM
 */
 .footer{
-    position: fixed;
+    position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 60;
     width: 100%;
     background-color: black;
     color: white;
     text-align: center;
+}
+.fa-home{
+    color: white;
+}
+.fa-home:hover{
+    color: #9b1308;
+}
+.span:hover:after{
+    transition: linear 0s;
 }

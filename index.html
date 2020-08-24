@@ -6,17 +6,20 @@
           name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Bruno Vieira</title>
+    <script crossorigin="anonymous" src="js/bootstrap.bundle.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link crossorigin="anonymous" href="css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <script crossorigin="anonymous" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" src="js/bootstrap.min.js"></script>
     <script crossorigin="anonymous" src="https://kit.fontawesome.com/ff98fc1b03.js"></script>
+
     <script src="js/index.js"></script>
 </head>
 <body>
 <header>
     <nav class="navbar navbar-expand-md navbar-header fixed-top">
         <!-- Brand -->
-       <i class="fas fa-home navbar-brand"></i>Portfólio: Bruno Vieira
+       <a href="index.html"><i class="fas fa-home navbar-brand"></i></a>Portfólio: Bruno Vieira
     </nav>
 </header>
 <!-- Container open tag -->
@@ -30,20 +33,19 @@
                         <img alt="" class="img-responsive" src="https://i.imgur.com/eEpOclo.jpg">
                         <span class="cards--three__rect-1">
       <span class="shadow-1"></span>
-      <p>OH O PAI</p>
+      <p>Bruno Vieira</p>
     </span>
                         <span class="cards--three__rect-2">
       <span class="shadow-2"></span>
     </span>
-                        <span class="cards--three__circle"></span>
-                        <ul class="cards--three__list">
-                            <li><a class="fa fa-envelope social-icon" aria-hidden="true" href="mailto:brunorick11@gmail.com" target="_blank"></a></li>
-                            <li><a class="fab fa-github social-icon" href="https://github.com/brunovhk" target="_blank"></a></li>
-                            <li><a class="fab fa-linkedin-in social-icon" href="https://www.linkedin.com/in/bruno-henrique-695538193/" target="_blank"></a></li>
-                        </ul>
                     </div>
                 </div>
-
+<h1 class="text-center title">Contato</h1>
+<ul class="list-group-flush">
+                    <li><a aria-hidden="true" class="fa fa-envelope social-icon" href="mailto:brunorick11@gmail.com" target="_blank"> Me envie um e-mail</a></li>
+                    <li><a class="fab fa-github social-icon" href="https://github.com/brunovhk" target="_blank"> Me siga no Github</a></li>
+                    <li><a class="fab fa-linkedin-in social-icon" href="https://www.linkedin.com/in/bruno-henrique-695538193/" target="_blank"> Me siga no Linkedin</a></li>
+</ul>
             </div>
         </div>
         <div class="col-xs-12 col-sm-8">
@@ -54,11 +56,11 @@
             <h2 class="text-center title">Habilidades</h2>
             <p class="text-center" id="hab">Abaixo estão algumas ferramentas no qual tenho focado em adquirir cada vez mais experiência e me especializar: </p>
             <div class="text-center badges">
-                <span class="badge badge-pill badge-danger badge-custom-php" onmouseout="phpOut(this)" onmouseover="phpIn(this)">PHP</span>
-                <span class="badge badge-pill badge-danger badge-custom-mysql" onmouseout="mySqlOut(this)" onmouseover="mySqlIn(this)">MySQL</span>
-                <span class="badge badge-pill badge-danger badge-custom-bootstrap" onmouseout="bootstrapOut(this)" onmouseover="bootstrapIn(this)">Bootstrap 4</span>
-                <span class="badge badge-pill badge-danger badge-custom-js" onmouseout="jsOut(this)" onmouseover="jsIn(this)">JavaScript</span>
-                <span class="badge badge-pill badge-danger badge-custom-linux" onmouseout="linuxOut(this)" onmouseover="linuxIn(this)">Linux</span>
+                <span class="badge badge-pill badge-danger badge-custom-php" data-toggle="tooltip" data-placement="bottom" title="3 months">PHP</span>
+                <span class="badge badge-pill badge-danger badge-custom-mysql" data-placement="bottom" title="3 months">MySQL</span>
+                <span class="badge badge-pill badge-danger badge-custom-bootstrap" data-placement="bottom" title="6 months">Bootstrap 4</span>
+                <span class="badge badge-pill badge-danger badge-custom-js" data-placement="bottom" title="6 months">JavaScript</span>
+                <span class="badge badge-pill badge-danger badge-custom-linux" data-placement="bottom" title="1 Year">Linux</span>
             </div>
             <h2 class="text-center title">Experiências</h2>
             <p class="text-center">Em busca de oportunidades</p>
