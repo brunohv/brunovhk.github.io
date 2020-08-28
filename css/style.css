@@ -3,12 +3,14 @@
 }
 .container{
     padding-top: 90px;
-    background: #0073e5;
+    background: #3f3f3f;
     color: white;
 }
 body{
-    background: #ff7070;
+    background-color: #d3d3d3;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffa500' fill-opacity='0.39' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
+
 .navbar-footer, .navbar-header{
     background-color: #0a0a0a;
     color: white;
@@ -34,7 +36,7 @@ Aqui começa o hover do avatar
 .card__collection {
     position: relative;
     display: block;
-    background: #0073e5;
+    background: #3f3f3f;
     padding: 10px;
     font-family: 'Do Hyeon', sans-serif;
     overflow: hidden;
@@ -179,7 +181,7 @@ Aqui começa o hover do avatar
     line-height: 6rem;
 }
 .card__collection .cards--three__rect-1 .shadow-1 {
-    background: #9b1308;
+    background: #e59400;
     width: 230px;
     height: 100px;
     display: block;
@@ -205,7 +207,7 @@ Aqui começa o hover do avatar
     display: block;
     width: 50px;
     height: 40px;
-    background: #57ccfd;
+    background: #3f3f3f;
     opacity: 1;
     position: absolute;
     left: 500%;
@@ -217,7 +219,7 @@ Aqui começa o hover do avatar
     display: block;
     width: 50px;
     height: 40px;
-    background: #9b1308;
+    background: #e59400;
     opacity: 1;
     position: absolute;
     left: 500%;
@@ -226,7 +228,7 @@ Aqui começa o hover do avatar
     transition-delay: 0.2s;
 }
 .card__collection .cards--three__rect-2 .shadow-2 {
-    background: #57ccfd;
+    background: #3f3f3f;
     width: 100%;
     height: 100%;
     display: block;
@@ -296,14 +298,16 @@ Fim do hover do avatar
 
 .social-icon{
  color: white;
+    margin-bottom: 8px;
 }
 .social-icon:hover{
-    color: black;
+    color: #e59400;
+    padding-left: 15px;
 }
 .title:hover{
-    border-left: 10px solid #ff4c4c;
-    border-right: 10px solid #ff4c4c;
-    color: #0a0a0a;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    color: #e59400;
 }
 /*
 BADGES INICIO
@@ -351,8 +355,6 @@ BADGES FIM
 */
 .footer{
     position: absolute;
-    left: 0;
-    bottom: 60;
     width: 100%;
     background-color: black;
     color: white;
@@ -362,8 +364,14 @@ BADGES FIM
     color: white;
 }
 .fa-home:hover{
-    color: #9b1308;
+    color: #e59400;
 }
 .tooltip-inner {
 font-weight: bold;
+}
+.unselectable{
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
